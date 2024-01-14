@@ -4,7 +4,7 @@ function firstWord(s) {
 	
 	
 let arr=	s.split(" ");
-	let str2=`"${arr[0]}"`
+	let str2=`'${arr[0]}'`
 	
 	return str2;
 }
