@@ -3,10 +3,9 @@ function firstWord(s) {
 
 	
 	
-	let str =s.split(' ');
-	let str2=`"`
-	str2+= str[0];
-	 str2+=`"`;
+let arr=	s.split(" ");
+	let str2=`"${arr[0]}"`
+	
 	return str2;
 }
 
