@@ -4,9 +4,9 @@ function firstWord(s) {
 	
 	
 	let str =s.split(' ');
-	let str2="'"
+	let str2=`"`
 	str2+= str[0];
-	 str2+="'";
+	 str2+=`"`;
 	return str2;
 }
 
